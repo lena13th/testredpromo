@@ -1,0 +1,43 @@
+.main_article_image {
+    width: 100%;
+    background: aliceblue;
+    margin-bottom: 10px;
+}
+.main_article_image_lg {
+    width: 60%;
+}
+.date_news {
+    color: #aaaaaa;
+}
+.link-titlenews {
+    color: #333;
+}
+.link-titlenews > h2 {
+    margin-top: 10px;
+}
+.link-titlenews:hover{
+    text-decoration: none;
+}
+/*Избранное*/
+
+.favorites_link {
+    font-size: 20px;
+    color: white;
+    text-shadow: black 0 0 1px;
+    float: right;
+}
+.favorites_link:link, .favorites_link:visited, .favorites_link:hover{
+    color: white;
+}
+
+.favorites_link.favorites_link_active {
+    color: #ffb52e;
+}
+.favorites_button {
+    float: right;
+}
+.favorites_button_active:link {
+    color: #333;
+}
+
+
